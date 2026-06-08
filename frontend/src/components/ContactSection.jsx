@@ -24,12 +24,17 @@ const ContactSection = () => {
     { icon: <Globe size={18} />, url: "#", name: "Website" }
   ];
 
-  const instagramFeeds = [
+  const rawInstagramFeeds = [
     { id: 1, img: "images/butter_chicken.png", likes: "1.2k", comments: "48" },
     { id: 2, img: "images/chicken_tikka.png", likes: "984", comments: "32" },
     { id: 3, img: "images/paneer_tikka.png", likes: "1.5k", comments: "64" },
     { id: 4, img: "images/restaurant_ambience.png", likes: "2.1k", comments: "96" }
   ];
+
+  const instagramFeeds = rawInstagramFeeds.map(feed => ({
+    ...feed,
+    img: `${import.meta.env.BASE_URL}${feed.img}`
+  }));
 
   return (
     <section id="contact" className="py-24 bg-luxury-charcoal relative overflow-hidden">

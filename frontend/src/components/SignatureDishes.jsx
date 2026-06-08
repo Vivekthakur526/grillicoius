@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import { ShoppingBag, Star, MessageSquare } from 'lucide-react';
 
 const SignatureDishes = () => {
-  const dishes = [
+  const rawDishes = [
     {
       id: 1,
       name: "Butter Chicken",
@@ -59,6 +59,11 @@ const SignatureDishes = () => {
       tag: "Indo-Chinese Classic"
     }
   ];
+
+  const dishes = rawDishes.map(d => ({
+    ...d,
+    image: `${import.meta.env.BASE_URL}${d.image}`
+  }));
 
   const handleOrderWhatsApp = (dishName) => {
     const message = `Hello Grillicious By Zoella, I would like to order the signature dish: ${dishName}. Please let me know the availability!`;

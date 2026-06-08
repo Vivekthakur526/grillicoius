@@ -30,7 +30,7 @@ const Hero = ({ onBookClick, onMenuClick }) => {
       ref={heroRef}
       className="relative min-h-screen flex items-center justify-center bg-cover bg-center bg-no-repeat"
       style={{
-        backgroundImage: "linear-gradient(rgba(10, 10, 10, 0.65), rgba(10, 10, 10, 0.95)), url('images/restaurant_ambience.png')",
+        backgroundImage: `linear-gradient(rgba(10, 10, 10, 0.65), rgba(10, 10, 10, 0.95)), url('${import.meta.env.BASE_URL}images/restaurant_ambience.png')`,
         backgroundAttachment: 'fixed'
       }}
       id="home"

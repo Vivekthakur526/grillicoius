@@ -6,7 +6,7 @@ const Gallery = () => {
   const [activeTab, setActiveTab] = useState('all');
   const [selectedImageIndex, setSelectedImageIndex] = useState(null);
 
-  const galleryItems = [
+  const rawGalleryItems = [
     {
       id: 1,
       src: "images/restaurant_ambience.png",
@@ -64,6 +64,11 @@ const Gallery = () => {
       desc: "Premium catering setups for customized family events."
     }
   ];
+
+  const galleryItems = rawGalleryItems.map(item => ({
+    ...item,
+    src: `${import.meta.env.BASE_URL}${item.src}`
+  }));
 
   const filteredItems = activeTab === 'all' 
     ? galleryItems 
