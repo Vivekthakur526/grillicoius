@@ -84,7 +84,7 @@ const About = () => {
               {/* Primary Image */}
               <div className="col-span-8 rounded-lg overflow-hidden shadow-2xl border border-gold/10 group">
                 <img 
-                  src="/images/restaurant_ambience.png" 
+                  src="images/restaurant_ambience.png" 
                   alt="Restaurant Ambience" 
                   className="w-full h-[320px] sm:h-[400px] object-cover transition-transform duration-700 group-hover:scale-110"
                 />
@@ -93,7 +93,7 @@ const About = () => {
               {/* Secondary Overlapping Image */}
               <div className="col-span-4 rounded-lg overflow-hidden shadow-2xl border border-gold/10 self-end transform translate-y-8 -translate-x-4 group hidden sm:block">
                 <img 
-                  src="/images/paneer_tikka.png" 
+                  src="images/paneer_tikka.png" 
                   alt="Food Detail" 
                   className="w-full h-[200px] object-cover transition-transform duration-700 group-hover:scale-110"
                 />

@@ -25,10 +25,10 @@ const ContactSection = () => {
   ];
 
   const instagramFeeds = [
-    { id: 1, img: "/images/butter_chicken.png", likes: "1.2k", comments: "48" },
-    { id: 2, img: "/images/chicken_tikka.png", likes: "984", comments: "32" },
-    { id: 3, img: "/images/paneer_tikka.png", likes: "1.5k", comments: "64" },
-    { id: 4, img: "/images/restaurant_ambience.png", likes: "2.1k", comments: "96" }
+    { id: 1, img: "images/butter_chicken.png", likes: "1.2k", comments: "48" },
+    { id: 2, img: "images/chicken_tikka.png", likes: "984", comments: "32" },
+    { id: 3, img: "images/paneer_tikka.png", likes: "1.5k", comments: "64" },
+    { id: 4, img: "images/restaurant_ambience.png", likes: "2.1k", comments: "96" }
   ];
 
   return (

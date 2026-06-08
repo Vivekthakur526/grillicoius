@@ -9,56 +9,56 @@ const Gallery = () => {
   const galleryItems = [
     {
       id: 1,
-      src: "/images/restaurant_ambience.png",
+      src: "images/restaurant_ambience.png",
       category: "ambience",
       title: "Luxury Dining Room",
       desc: "Warm gold tones, plush velvet seating, and crystal reflections."
     },
     {
       id: 2,
-      src: "/images/paneer_tikka.png",
+      src: "images/paneer_tikka.png",
       category: "food",
       title: "Gourmet Paneer Tikka",
       desc: "Delicate cottage cheese grilled on direct fire."
     },
     {
       id: 3,
-      src: "/images/chicken_tikka.png",
+      src: "images/chicken_tikka.png",
       category: "food",
       title: "Traditional Chicken Tikka",
       desc: "Smoky boneless charcoal-roasted classic."
     },
     {
       id: 4,
-      src: "/images/butter_chicken.png",
+      src: "images/butter_chicken.png",
       category: "food",
       title: "Award-Winning Butter Chicken",
       desc: "Indore's favorite rich and buttery gravy."
     },
     {
       id: 5,
-      src: "/images/dal_makhani.png",
+      src: "images/dal_makhani.png",
       category: "food",
       title: "Slow-Cooked Dal Makhani",
       desc: "Stirred continuously on charcoal for 12 hours."
     },
     {
       id: 6,
-      src: "/images/schezwan_noodles.png",
+      src: "images/schezwan_noodles.png",
       category: "food",
       title: "Wok Schezwan Noodles",
       desc: "Perfect fiery Indo-Chinese stir-fry."
     },
     {
       id: 7,
-      src: "/images/restaurant_ambience.png", // We can reuse ambience for indoor/outdoor
+      src: "images/restaurant_ambience.png", // We can reuse ambience for indoor/outdoor
       category: "seating",
       title: "Elegant Indoor Lounge",
       desc: "Perfect private corners for couples and families."
     },
     {
       id: 8,
-      src: "/images/chicken_tikka.png",
+      src: "images/chicken_tikka.png",
       category: "events",
       title: "Celebration Platters",
       desc: "Premium catering setups for customized family events."

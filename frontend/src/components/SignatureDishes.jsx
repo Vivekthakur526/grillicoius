@@ -10,7 +10,7 @@ const SignatureDishes = () => {
       category: "North Indian",
       desc: "Tender tandoori chicken simmered in our signature velvet smooth tomato gravy, enriched with pure butter and fresh cream.",
       price: "₹450",
-      image: "/images/butter_chicken.png",
+      image: "images/butter_chicken.png",
       tag: "Must Try"
     },
     {
@@ -19,7 +19,7 @@ const SignatureDishes = () => {
       category: "Grilled Specialities",
       desc: "Boneless chicken chunks marinated in spiced yoghurt, char-grilled to smoky perfection in our traditional clay oven.",
       price: "₹380",
-      image: "/images/chicken_tikka.png",
+      image: "images/chicken_tikka.png",
       tag: "Best Seller"
     },
     {
@@ -28,7 +28,7 @@ const SignatureDishes = () => {
       category: "Grilled Specialities",
       desc: "Cottage cheese cubes skewered with bell peppers and onions, glazed with mustard oil and cooked over open charcoal.",
       price: "₹340",
-      image: "/images/paneer_tikka.png",
+      image: "images/paneer_tikka.png",
       tag: "Vegetarian Premium"
     },
     {
@@ -37,7 +37,7 @@ const SignatureDishes = () => {
       category: "North Indian",
       desc: "Slow-cooked black lentils simmered overnight on low charcoal heat, infused with house spices, butter, and cream.",
       price: "₹290",
-      image: "/images/dal_makhani.png",
+      image: "images/dal_makhani.png",
       tag: "Legacy Recipe"
     },
     {
@@ -46,7 +46,7 @@ const SignatureDishes = () => {
       category: "Chinese Specialities",
       desc: "Stir-fried batter-coated chicken pieces tossed with crunchy bell peppers, onions, garlic, and dark soy Schezwan sauce.",
       price: "₹360",
-      image: "/images/chilli_chicken.png",
+      image: "images/chilli_chicken.png",
       tag: "Spicy"
     },
     {
@@ -55,7 +55,7 @@ const SignatureDishes = () => {
       category: "Chinese Specialities",
       desc: "Wok-tossed noodles sautéed with crisp julienned vegetables and glazed in our hot, house-made Schezwan chili paste.",
       price: "₹280",
-      image: "/images/schezwan_noodles.png",
+      image: "images/schezwan_noodles.png",
       tag: "Indo-Chinese Classic"
     }
   ];
