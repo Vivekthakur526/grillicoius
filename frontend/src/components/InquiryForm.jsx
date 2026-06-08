@@ -52,14 +52,14 @@ const InquiryForm = () => {
 
     setLoading(true);
     
-    const ownerNumber = '919691766123';
+    const ownerNumber = '919926788888';
     const text = `✉️ *NEW GENERAL/EVENT INQUIRY* ✉️\n` +
                  `---------------------------\n` +
                  `👤 *Name:* ${formData.name}\n` +
                  `📞 *Phone:* ${formData.phone}\n` +
                  `💬 *Message:* ${formData.message}\n` +
                  `---------------------------\n` +
-                 `_Submitted via Grillicious By Zoella Website_`;
+                 `_Submitted via Dutt Gurukripa Restaurant Website_`;
                  
     const encodedText = encodeURIComponent(text);
     const whatsappUrl = `https://api.whatsapp.com/send?phone=${ownerNumber}&text=${encodedText}`;

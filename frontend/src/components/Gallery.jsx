@@ -23,17 +23,17 @@ const Gallery = () => {
     },
     {
       id: 3,
-      src: "images/chicken_tikka.png",
+      src: "images/manchow_soup.png",
       category: "food",
-      title: "Traditional Chicken Tikka",
-      desc: "Smoky boneless charcoal-roasted classic."
+      title: "Hot Manchow Soup",
+      desc: "Spicy Indo-Chinese vegetable soup with crispy noodles."
     },
     {
       id: 4,
-      src: "images/butter_chicken.png",
+      src: "images/kaju_curry.png",
       category: "food",
-      title: "Award-Winning Butter Chicken",
-      desc: "Indore's favorite rich and buttery gravy."
+      title: "Royal Kaju Curry",
+      desc: "Rich cashew nuts cooked in creamy spiced tomato gravy."
     },
     {
       id: 5,
@@ -58,9 +58,9 @@ const Gallery = () => {
     },
     {
       id: 8,
-      src: "images/chicken_tikka.png",
+      src: "images/restaurant_ambience.png",
       category: "events",
-      title: "Celebration Platters",
+      title: "Celebration Buffet Setup",
       desc: "Premium catering setups for customized family events."
     }
   ];

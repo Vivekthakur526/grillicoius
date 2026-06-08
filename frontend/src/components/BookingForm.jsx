@@ -72,7 +72,7 @@ const BookingForm = ({ onClose }) => {
       }
     };
 
-    const ownerNumber = '919691766123';
+    const ownerNumber = '919926788888';
     const formattedDate = formatBookingDate(formData.bookingDate);
     
     const text = `🔥 *NEW TABLE RESERVATION* 🔥\n` +
@@ -83,7 +83,7 @@ const BookingForm = ({ onClose }) => {
                  `👥 *Guests:* ${formData.guests}\n` +
                  `✍️ *Special Note:* ${formData.note || 'None'}\n` +
                  `---------------------------\n` +
-                 `_Submitted via Grillicious By Zoella Website_`;
+                 `_Submitted via Dutt Gurukripa Restaurant Website_`;
                  
     const encodedText = encodeURIComponent(text);
     const whatsappUrl = `https://api.whatsapp.com/send?phone=${ownerNumber}&text=${encodedText}`;
@@ -251,9 +251,9 @@ const BookingForm = ({ onClose }) => {
             </p>
 
             <div className="bg-luxury-black/60 p-4 border border-gold/10 rounded-lg max-w-xs mx-auto mb-8 text-left text-xs space-y-2 text-gray-400">
-              <p><strong className="text-gold font-normal">Restaurant:</strong> Grillicious By Zoella</p>
-              <p><strong className="text-gold font-normal">Contact No:</strong> 0731 495 6499</p>
-              <p><strong className="text-gold font-normal">Location:</strong> Bicholi Mardana, Indore</p>
+              <p><strong className="text-gold font-normal">Restaurant:</strong> Dutt Gurukripa Restaurant</p>
+              <p><strong className="text-gold font-normal">Contact No:</strong> +91 99267 88888</p>
+              <p><strong className="text-gold font-normal">Location:</strong> South Tukoganj, Indore</p>
             </div>
 
             <button

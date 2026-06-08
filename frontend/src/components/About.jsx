@@ -51,8 +51,8 @@ const About = () => {
     },
     {
       icon: <Flame className="text-gold" size={24} />,
-      title: "Grilled Specialities",
-      desc: "Perfected coal-grilled delicacies, skewered live and served piping hot with premium dips."
+      title: "Veg Tandoori Delights",
+      desc: "Perfected coal-grilled vegetarian tandoori specialties like Paneer Tikka, Veg Seekh Kebab, and Tandoori Chaap."
     },
     {
       icon: <Soup className="text-gold" size={24} />,
@@ -104,9 +104,9 @@ const About = () => {
             <div className="grid grid-cols-3 gap-4 mt-16 pt-8 border-t border-gold/10 text-center">
               <div>
                 <div className="flex justify-center items-center">
-                  <Counter value="12" suffix="+" />
+                  <Counter value="45" suffix="+" />
                 </div>
-                <p className="text-gray-400 text-xs sm:text-sm mt-1 uppercase tracking-wider font-light">Years of Mastery</p>
+                <p className="text-gray-400 text-xs sm:text-sm mt-1 uppercase tracking-wider font-light">Years of Legacy</p>
               </div>
               <div>
                 <div className="flex justify-center items-center">
@@ -130,10 +130,10 @@ const About = () => {
                 <Sparkles size={14} /> Our Heritage
               </span>
               <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold font-playfair text-white mb-6 leading-tight">
-                Crafting Culinary Masterpieces <span className="gold-gradient-text">Since 2014</span>
+                Serving Pure Veg Delicacies <span className="gold-gradient-text">Since 1980</span>
               </h2>
               <p className="text-gray-300 font-light leading-relaxed mb-8 text-sm sm:text-base">
-                Welcome to <strong className="text-gold font-medium">Grillicious By Zoella</strong>, Indore's premier address for true luxury fine dining. We blend age-old traditions of charcoal grilling with contemporary North Indian spices and clean, authentic Chinese wok techniques to deliver a feast for your senses. 
+                Welcome to <strong className="text-gold font-medium">Dutt Gurukripa Restaurant</strong>, Indore's beloved destination for pure vegetarian dining. We offer a delightful mix of traditional North Indian cuisines, authentic Punjabi dishes, local specialties, and vibrant Chinese wok creations, all made with the freshest ingredients in a welcoming family environment. 
               </p>
 
               {/* Highlight Features */}

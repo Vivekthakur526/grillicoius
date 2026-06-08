@@ -20,13 +20,13 @@ const FacebookIcon = ({ size = 18, className = "" }) => (
 const ContactSection = () => {
   const socialIcons = [
     { icon: <FacebookIcon size={18} />, url: "#", name: "Facebook" },
-    { icon: <InstagramIcon size={18} />, url: "https://instagram.com/grilliciousbyzoella", name: "Instagram" },
+    { icon: <InstagramIcon size={18} />, url: "#", name: "Instagram" },
     { icon: <Globe size={18} />, url: "#", name: "Website" }
   ];
 
   const rawInstagramFeeds = [
-    { id: 1, img: "images/butter_chicken.png", likes: "1.2k", comments: "48" },
-    { id: 2, img: "images/chicken_tikka.png", likes: "984", comments: "32" },
+    { id: 1, img: "images/kaju_curry.png", likes: "1.2k", comments: "48" },
+    { id: 2, img: "images/dal_makhani.png", likes: "984", comments: "32" },
     { id: 3, img: "images/paneer_tikka.png", likes: "1.5k", comments: "64" },
     { id: 4, img: "images/restaurant_ambience.png", likes: "2.1k", comments: "96" }
   ];
@@ -49,7 +49,7 @@ const ContactSection = () => {
                 <MapPin size={14} /> Find Us
               </span>
               <h2 className="text-3xl sm:text-4xl font-bold font-playfair text-white">
-                Visit <span className="gold-gradient-text">Grillicious</span> By Zoella
+                Visit <span className="gold-gradient-text">Dutt Gurukripa</span> Restaurant
               </h2>
               <div className="w-16 h-0.5 bg-gold mt-4" />
             </div>
@@ -63,10 +63,9 @@ const ContactSection = () => {
                 <div>
                   <h4 className="font-playfair text-white font-semibold mb-2 text-sm uppercase tracking-wider">Address</h4>
                   <p className="text-gray-400 text-xs sm:text-sm font-light leading-relaxed">
-                    Behind Hotel President Park,<br />
-                    Bypass Road, Near Sampat Hills Road,<br />
-                    Bicholi Mardana, Indore,<br />
-                    Madhya Pradesh 452016
+                    No 8, A-1, Nath Mandir Rd,<br />
+                    near Nath Mandir, South Tukoganj,<br />
+                    Indore, Madhya Pradesh 452001
                   </p>
                 </div>
               </div>
@@ -79,23 +78,23 @@ const ContactSection = () => {
                   <div>
                     <h4 className="font-playfair text-white font-semibold mb-2 text-sm uppercase tracking-wider">Contact & Inquiries</h4>
                     <p className="text-gray-400 text-xs sm:text-sm font-light leading-relaxed">
-                      Ph: <a href="tel:07314956499" className="hover:text-gold transition-colors font-medium">0731 495 6499</a>
+                      Ph: <a href="tel:+919926788888" className="hover:text-gold transition-colors font-medium">+91 99267 88888</a>
                     </p>
                     <p className="text-gray-400 text-xs font-light mt-1">
-                      Email: info@grilliciousbyzoella.in
+                      Email: info@duttgurukripa.com
                     </p>
                   </div>
                 </div>
 
                 <div className="flex gap-2 pt-4 border-t border-gold/5">
                   <a
-                    href="tel:07314956499"
+                    href="tel:+919926788888"
                     className="flex-1 py-2 bg-gold hover:bg-gold-dark text-luxury-black text-center rounded text-[10px] uppercase font-bold tracking-wider transition-colors"
                   >
                     Call Now
                   </a>
                   <a
-                    href="https://wa.me/9107314956499?text=Hello%20Grillicious%20By%20Zoella%2C%20I%20would%20like%20to%20know%20more%20about%20your%20restaurant."
+                    href="https://wa.me/919926788888?text=Hello%20Dutt%20Gurukripa%20Restaurant%2C%20I%20would%20like%20to%20know%20more%20about%20your%20restaurant."
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex-1 py-2 bg-transparent hover:bg-green-500/10 text-green-400 border border-green-500/30 hover:border-green-400 text-center rounded text-[10px] uppercase font-bold tracking-wider transition-colors flex items-center justify-center gap-1"
@@ -109,8 +108,8 @@ const ContactSection = () => {
             {/* Google Map Embed */}
             <div className="rounded-lg overflow-hidden border border-gold/15 shadow-2xl h-[280px]">
               <iframe
-                title="Grillicious By Zoella Location Map"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3680.5901308365287!2d75.9213898758804!3d22.706297327891244!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3962e245a4b13a77%3A0xe108e4ee0e4620f3!2sHotel%20President%20Park!5e0!3m2!1sen!2sin!4v1717800000000!5m2!1sen!2sin"
+                title="Dutt Gurukripa Restaurant Location Map"
+                src="https://maps.google.com/maps?q=Dutt%20Gurukripa%20Restaurant%20South%20Tukoganj%20Indore&t=&z=17&ie=UTF8&iwloc=&output=embed"
                 width="100%"
                 height="100%"
                 style={{ border: 0, filter: 'grayscale(1) invert(0.9) contrast(1.2)' }}
@@ -128,7 +127,7 @@ const ContactSection = () => {
                 <InstagramIcon size={14} /> Social Connection
               </span>
               <h2 className="text-3xl sm:text-4xl font-bold font-playfair text-white">
-                Follow <span className="gold-gradient-text">@grilliciousbyzoella</span>
+                Follow <span className="gold-gradient-text">@duttgurukripa</span>
               </h2>
               <div className="w-16 h-0.5 bg-gold mt-4" />
             </div>
@@ -158,13 +157,13 @@ const ContactSection = () => {
             {/* Social Links and Follow Button */}
             <div className="flex flex-col sm:flex-row items-center justify-between gap-6 pt-6 border-t border-gold/10">
               <a
-                href="https://instagram.com/grilliciousbyzoella"
+                href="#"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-full sm:w-auto px-8 py-3.5 bg-gold hover:bg-gold-dark text-luxury-black font-semibold uppercase tracking-wider text-xs rounded transition-all duration-300 flex items-center justify-center gap-2 hover:scale-105 active:scale-95 shadow-lg shadow-gold/10"
               >
                 <InstagramIcon size={15} />
-                Follow Us On Instagram
+                Follow Us On Social Media
               </a>
 
               <div className="flex gap-4">

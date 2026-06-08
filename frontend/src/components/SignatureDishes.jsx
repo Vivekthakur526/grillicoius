@@ -6,57 +6,57 @@ const SignatureDishes = () => {
   const rawDishes = [
     {
       id: 1,
-      name: "Butter Chicken",
-      category: "North Indian",
-      desc: "Tender tandoori chicken simmered in our signature velvet smooth tomato gravy, enriched with pure butter and fresh cream.",
-      price: "₹450",
-      image: "images/butter_chicken.png",
-      tag: "Must Try"
-    },
-    {
-      id: 2,
-      name: "Chicken Tikka",
-      category: "Grilled Specialities",
-      desc: "Boneless chicken chunks marinated in spiced yoghurt, char-grilled to smoky perfection in our traditional clay oven.",
-      price: "₹380",
-      image: "images/chicken_tikka.png",
+      name: "Paneer Tikka",
+      category: "Veg Tandoori",
+      desc: "Cottage cheese cubes marinated in spiced yogurt and traditional herbs, char-grilled to smoky perfection with onions and bell peppers in our clay oven.",
+      price: "₹260",
+      image: "images/paneer_tikka.png",
       tag: "Best Seller"
     },
     {
-      id: 3,
-      name: "Paneer Tikka",
-      category: "Grilled Specialities",
-      desc: "Cottage cheese cubes skewered with bell peppers and onions, glazed with mustard oil and cooked over open charcoal.",
-      price: "₹340",
-      image: "images/paneer_tikka.png",
-      tag: "Vegetarian Premium"
+      id: 2,
+      name: "Kaju Curry",
+      category: "North Indian",
+      desc: "Rich and roasted cashew nuts simmered in a luscious, creamy onion-tomato gravy with traditional Indian spices.",
+      price: "₹280",
+      image: "images/kaju_curry.png",
+      tag: "Chef's Special"
     },
     {
-      id: 4,
+      id: 3,
       name: "Dal Makhani",
       category: "North Indian",
-      desc: "Slow-cooked black lentils simmered overnight on low charcoal heat, infused with house spices, butter, and cream.",
-      price: "₹290",
+      desc: "Slow-cooked black lentils simmered overnight on low charcoal heat, infused with house spices, rich butter, and fresh cream.",
+      price: "₹220",
       image: "images/dal_makhani.png",
       tag: "Legacy Recipe"
     },
     {
+      id: 4,
+      name: "Lachha Paratha",
+      category: "Indian Breads",
+      desc: "Multi-layered, crispy and flaky whole wheat flatbread baked in tandoor and brushed with premium melted butter.",
+      price: "₹60",
+      image: "images/lachha_paratha.png",
+      tag: "Must Try"
+    },
+    {
       id: 5,
-      name: "Chilli Chicken",
+      name: "Manchow Soup",
       category: "Chinese Specialities",
-      desc: "Stir-fried batter-coated chicken pieces tossed with crunchy bell peppers, onions, garlic, and dark soy Schezwan sauce.",
-      price: "₹360",
-      image: "images/chilli_chicken.png",
-      tag: "Spicy"
+      desc: "A comforting Indo-Chinese soup loaded with finely chopped vegetables, ginger, garlic, and soy sauce, topped with crispy fried noodles.",
+      price: "₹130",
+      image: "images/manchow_soup.png",
+      tag: "Hot & Spicy"
     },
     {
       id: 6,
-      name: "Schezwan Noodles",
-      category: "Chinese Specialities",
-      desc: "Wok-tossed noodles sautéed with crisp julienned vegetables and glazed in our hot, house-made Schezwan chili paste.",
-      price: "₹280",
-      image: "images/schezwan_noodles.png",
-      tag: "Indo-Chinese Classic"
+      name: "Punjabi Salad",
+      category: "Salads & Sides",
+      desc: "Crisp sliced cucumbers, juicy tomatoes, carrots, and onions tossed with tangy lemon juice, fresh green chilies, and chaat masala.",
+      price: "₹90",
+      image: "images/punjabi_salad.png",
+      tag: "Fresh & Healthy"
     }
   ];
 
@@ -66,9 +66,9 @@ const SignatureDishes = () => {
   }));
 
   const handleOrderWhatsApp = (dishName) => {
-    const message = `Hello Grillicious By Zoella, I would like to order the signature dish: ${dishName}. Please let me know the availability!`;
+    const message = `Hello Dutt Gurukripa Restaurant, I would like to order the signature dish: ${dishName}. Please let me know the availability!`;
     const encoded = encodeURIComponent(message);
-    window.open(`https://wa.me/9107314956499?text=${encoded}`, '_blank');
+    window.open(`https://wa.me/919926788888?text=${encoded}`, '_blank');
   };
 
   return (

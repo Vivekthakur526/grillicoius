@@ -15,25 +15,25 @@ const Reviews = () => {
       _id: '1',
       customerName: 'Aarav Mehta',
       rating: 5,
-      review: 'Absolutely spectacular! The Butter Chicken is by far the best in Indore. The ambience is incredibly premium and the hospitality is top-notch.'
+      review: 'Absolutely spectacular! The Kaju Curry and Dal Makhani are by far the best in Indore. The ambience is incredibly warm and the hospitality is top-notch.'
     },
     {
       _id: '2',
       customerName: 'Neha Sharma',
       rating: 5,
-      review: 'Grillicious By Zoella is our go-to family dinner spot. The Paneer Tikka is cooked to perfection with an authentic smokiness. High-end fine dining at its best.'
+      review: 'Dutt Gurukripa Restaurant is our go-to family dinner spot. The Paneer Tikka is cooked to perfection with an authentic smokiness. High-quality pure veg dining at its best.'
     },
     {
       _id: '3',
       customerName: 'Vikram Rathore',
       rating: 4,
-      review: 'Highly recommend the Schezwan Noodles and Chilli Chicken. Authentic flavors and amazing luxury presentation. Will definitely visit again for events.'
+      review: 'Highly recommend the Schezwan Noodles and Manchow Soup. Authentic flavors and amazing presentation. Will definitely visit again for family functions.'
     },
     {
       _id: '4',
       customerName: 'Ananya Sen',
       rating: 5,
-      review: 'The service is outstanding. Every dish was a work of art, especially the grilled platters. A truly royal dining experience in Indore!'
+      review: 'Every dish was a work of art, especially the Tandoori starters. A truly wonderful pure veg dining experience in Indore!'
     }
   ]);
   const [loadingReviews] = useState(false);
@@ -118,7 +118,7 @@ const Reviews = () => {
         {/* Direct Google Review Redirection Button */}
         <div className="text-center">
           <a
-            href="https://www.google.com/search?q=Grillicious+By+Zoella+Indore+review"
+            href="https://www.google.com/search?q=Dutt+Gurukripa+Restaurant+Indore+review"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-3 px-8 py-3 bg-transparent hover:bg-gold text-gold hover:text-luxury-black border border-gold font-semibold uppercase tracking-wider text-xs rounded transition-all duration-300 shadow-lg shadow-gold/5 hover:scale-[1.03] active:scale-95 mx-auto"

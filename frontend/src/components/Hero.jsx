@@ -46,7 +46,7 @@ const Hero = ({ onBookClick, onMenuClick }) => {
           className="mb-6 inline-flex justify-center items-center"
         >
           <div className="w-16 h-16 border-2 border-gold rounded-full flex items-center justify-center p-2 relative before:content-[''] before:absolute before:inset-1 before:border before:border-dashed before:border-gold/40 before:rounded-full">
-            <span className="text-gold font-playfair text-2xl font-bold tracking-widest">G</span>
+            <span className="text-gold font-playfair text-2xl font-bold tracking-widest">D</span>
           </div>
         </motion.div>
 
@@ -58,7 +58,7 @@ const Hero = ({ onBookClick, onMenuClick }) => {
           transition={{ duration: 1, delay: 0.3, ease: "easeOut" }}
           className="text-gold font-medium tracking-[0.25em] text-xs sm:text-sm uppercase mb-4"
         >
-          Grillicious By Zoella
+          Dutt Gurukripa Restaurant
         </motion.p>
 
         {/* Title */}
@@ -69,7 +69,7 @@ const Hero = ({ onBookClick, onMenuClick }) => {
           transition={{ duration: 1.2, delay: 0.5, ease: "easeOut" }}
           className="text-4xl sm:text-6xl md:text-7xl font-bold font-playfair text-white mb-6 leading-tight max-w-4xl mx-auto"
         >
-          Experience The <span className="gold-gradient-text">Finest Flavors</span> In Indore
+          Experience The <span className="gold-gradient-text">Finest Vegetarian Flavors</span> In Indore
         </motion.h1>
 
         {/* Description */}
@@ -79,7 +79,7 @@ const Hero = ({ onBookClick, onMenuClick }) => {
           transition={{ duration: 1, delay: 0.7, ease: "easeOut" }}
           className="text-gray-300 max-w-xl mx-auto text-sm sm:text-base md:text-lg mb-12 font-light tracking-wide leading-relaxed"
         >
-          Authentic North Indian, Chinese & Grilled Delights crafted with precision and served in a breathtaking luxury atmosphere.
+          Authentic North Indian, Chinese & Traditional Delights crafted with precision and served in a warm family atmosphere.
         </motion.p>
 
         {/* Actions */}
@@ -107,7 +107,7 @@ const Hero = ({ onBookClick, onMenuClick }) => {
           </button>
           
           <a
-            href="https://wa.me/9107314956499?text=Hello%20Grillicious%20By%20Zoella%2C%20I%20would%20like%20to%20know%20more%20about%20your%20restaurant."
+            href="https://wa.me/919926788888?text=Hello%20Dutt%20Gurukripa%20Restaurant%2C%20I%20would%20like%20to%20know%20more%20about%20your%20restaurant."
             target="_blank"
             rel="noopener noreferrer"
             className="w-full sm:w-auto px-8 py-4 bg-transparent hover:bg-green-500/10 text-green-400 hover:text-green-300 border border-green-500/40 hover:border-green-400 font-semibold uppercase tracking-wider text-xs rounded transition-all duration-300 flex items-center justify-center gap-2 hover:scale-105 active:scale-95"

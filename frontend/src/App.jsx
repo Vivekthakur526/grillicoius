@@ -82,10 +82,10 @@ function App() {
                 className="text-center"
               >
                 <h2 className="text-xl sm:text-2xl font-bold font-playfair tracking-widest text-gold uppercase">
-                  Grillicious
+                  Dutt Gurukripa
                 </h2>
                 <p className="text-[9px] sm:text-[10px] text-gray-400 uppercase tracking-[0.4em] mt-1.5 font-light">
-                  By Zoella • Indore
+                  Pure Vegetarian • Indore
                 </p>
               </motion.div>
             </div>
@@ -109,10 +109,10 @@ function App() {
             className="flex flex-col items-start select-none"
           >
             <span className="font-playfair text-xl sm:text-2xl font-bold tracking-widest text-white hover:text-gold transition-colors duration-300">
-              GRILLICIOUS
+              DUTT GURUKRIPA
             </span>
             <span className="text-[8px] tracking-[0.35em] text-gold uppercase font-light -mt-0.5">
-              By Zoella
+              Pure Vegetarian
             </span>
           </a>
 
@@ -250,17 +250,17 @@ function App() {
           <div className="flex justify-center items-center gap-2">
             <span className="w-8 h-px bg-gold/30" />
             <h3 className="font-playfair text-lg text-white font-bold tracking-widest">
-              GRILLICIOUS BY ZOELLA
+              DUTT GURUKRIPA RESTAURANT
             </h3>
             <span className="w-8 h-px bg-gold/30" />
           </div>
           
           <p className="text-gray-400 max-w-md mx-auto font-light leading-relaxed">
-            Indore's Premier Tandoori & Fine Dining Lounge. Indulge in authentic local flavors and grilled items served with uncompromising luxury.
+            Indore's Legacy Pure Vegetarian Restaurant. Indulge in authentic local vegetarian flavors and special North Indian, Chinese, and traditional delicacies.
           </p>
 
           <p className="text-gray-600 text-[10px] tracking-wider uppercase font-light">
-            © {new Date().getFullYear()} Grillicious By Zoella, Indore. All Rights Reserved.
+            © {new Date().getFullYear()} Dutt Gurukripa Restaurant, Indore. All Rights Reserved.
           </p>
         </div>
       </footer>

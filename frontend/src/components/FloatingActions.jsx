@@ -24,9 +24,9 @@ const FloatingActions = () => {
     });
   };
 
-  const phoneNum = "07314956499";
-  const whatsappMsg = "Hello Grillicious By Zoella, I would like to know more about your restaurant.";
-  const whatsappUrl = `https://wa.me/9107314956499?text=${encodeURIComponent(whatsappMsg)}`;
+  const phoneNum = "09926788888";
+  const whatsappMsg = "Hello Dutt Gurukripa Restaurant, I would like to know more about your restaurant.";
+  const whatsappUrl = `https://wa.me/919926788888?text=${encodeURIComponent(whatsappMsg)}`;
 
   return (
     <>
@@ -45,7 +45,7 @@ const FloatingActions = () => {
         >
           <Phone size={22} className="animate-pulse" />
           <span className="absolute right-16 bg-luxury-black text-gold border border-gold/20 text-xs px-3 py-1.5 rounded uppercase tracking-wider font-semibold opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none whitespace-nowrap">
-            Call: 0731 495 6499
+            Call: +91 99267 88888
           </span>
         </motion.a>
 
